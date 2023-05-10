@@ -19,15 +19,15 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
 			rel="shortcut icon"
-			href="./common/image/LogoDefinitivo_ColoratoTAGLIATO.png"
+			href="../common/image/LogoDefinitivo_ColoratoTAGLIATO.png"
 			type="image/x-icon"
 		/>
 		<link
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
 			rel="stylesheet"
 		/>
-		<link href="./common/css/main.css" rel="stylesheet" />
-		<link href="./common/css/scrollbar.css" rel="stylesheet" />
+		<link href="../common/css/main.css" rel="stylesheet" />
+		<link href="../common/css/scrollbar.css" rel="stylesheet" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -41,12 +41,16 @@
 	<body class="lg:overflow-hidden">
 		<div class="main">
 			<header class="md:h-20 flex h-16 items-center fixed w-full z-50">
-				<div class="logo absolute ml-1 my-4 mt-10">
+				<div class="flex flex-row absolute ml-1 mt-26">
 					<img
-						class=""
-						src="common/image/LogoDefinitivo_ColoratoTAGLIATO.png"
+						class="logo"
+						src="../common/image/LogoDefinitivo_ColoratoTAGLIATO.png"
 						alt="logo"
 					/>
+					<div class="flex flex-row gap-4">
+						<img role="button" src="../common/image/italy.png" alt="italy flag" style="width: 48px; height: 48px;" id="it-flag">
+						<img role="button" src="../common/image/united-kingdom.png" alt="united kingdom flag" style="width: 48px; height: 48px;" id="uk-flag">
+					</div>
 				</div>
 				<div class="container">
 					<div
@@ -75,7 +79,7 @@
 
 							<li class="flex">
 								<a
-									href="common/files/abstract.pdf"
+									href="../common/files/en-abstract.pdf"
 									download
 									class="group font-semibold inline-flex items-center black hover:text-accent text-lg gap-4"
 								>
@@ -85,7 +89,7 @@
 
 							<li class="flex">
 								<a
-									href="common/files/SITOGRAFIA.pdf"
+									href="../common/files/SITOGRAFIA.pdf"
 									download
 									class="group font-semibold inline-flex items-center black hover:text-accent text-lg gap-4"
 								>
@@ -247,16 +251,16 @@
 													class="h-6 w-6 flex-shrink-0 text-indigo-600"
 												>
 													<img
-														src="common/image/icons8-person-24.png"
+														src="../common/image/icons8-person-24.png"
 													/>
 												</div>
 												<span
 													class="ml-3 text-base font-semibold text-gray-900"
-													>Noi</span
+													>Us</span
 												>
 											</a>
 											<a
-												href="./common/files/abstract.pdf"
+												href="../common/files/abstract.pdf"
 												download
 												class="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50 h-[4.25rem]"
 											>
@@ -264,7 +268,7 @@
 													class="h-6 w-6 flex-shrink-0 text-indigo-600"
 												>
 													<img
-														src="./common/image/download.png"
+														src="../common/image/download.png"
 														alt="download pdf"
 													/>
 												</div>
@@ -275,7 +279,7 @@
 												>
 											</a>
 											<a
-												href="./common/files/SITOGRAFIA.pdf"
+												href="../common/files/SITOGRAFIA.pdf"
 												download
 												class="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50 h-[4.25rem]"
 											>
@@ -283,7 +287,7 @@
 													class="h-6 w-6 flex-shrink-0 text-indigo-600"
 												>
 													<img
-														src="./common/image/download.png"
+														src="../common/image/download.png"
 														alt="download pdf"
 													/>
 												</div>
@@ -489,7 +493,7 @@
 						>
 							<img
 								class="mx-auto h-60 lg:right-0 lg:top-24 z-0 lg:w-[35.125rem] lg:max-w-max scale-2"
-								src="common/image/mario.png"
+								src="../common/image/mario.png"
 							/>
 						</div>
 					</div>
@@ -505,21 +509,21 @@
 							<div class="w-[8.5625rem] h-[7rem]">
 								<img
 									class="mx-auto"
-									src="./common/image/Logo-Revival-Raschillà.png"
+									src="../common/image/Logo-Revival-Raschillà.png"
 									alt="Marconi logo"
 								/>
 							</div>
 							<div class="w-[8.5625rem] h-[6.1875rem]">
 								<img
 									class="mx-auto"
-									src="./common/image/naoChallange.png"
+									src="../common/image/naoChallange.png"
 									alt="naoChallange logo"
 								/>
 							</div>
 							<div class="w-[8.5625rem] h-[7rem]">
 								<img
 									class="mx-auto"
-									src="./common/image/st.svg"
+									src="../common/image/st.svg"
 									alt="st logo"
 								/>
 							</div>
@@ -530,7 +534,7 @@
 		</div>
 
 		<script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
-		<script src="common/js/main.js"></script>
+		<script src="../common/js/main.js"></script>
 		<script src="../utils/changeLang.js"></script>
 
 	</body>
