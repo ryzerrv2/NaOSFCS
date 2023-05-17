@@ -26,4 +26,4 @@ Our site consists of the following sections:
 
 - Gallery: A gallery of images and videos showing our NAO robot in action during the different stages of the project.
 
-Visit [our WebSite](https://nao-sfcs.it) to find out more about our project for the [*NAO Challenge competition*](https://www.naochallenge.it/) and to see our NAO robot in action!
+Visit [Our WebSite](https://nao-sfcs.it) to find out more about our project for the [*NAO Challenge competition*](https://www.naochallenge.it/) and to see our NAO robot in action!
