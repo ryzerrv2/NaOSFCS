@@ -2,7 +2,7 @@
 
 ### **NAO & Smart Food Conservation System**
 
-[Our website](https://nao-sfcs.it) was created using **Tailwind CSS**, **HTML** and **JavaScript** to present a project for the [*NAO Challenge*](https://www.naochallenge.it) competition. The main goal of our site is to provide an informative and engaging platform regarding our project, highlighting its innovation and our commitment to accessibility.
+[Our website](https://nao-sfcs.it) was created using **Tailwind CSS**, **HTML** and **JavaScript** to present a project for the [*NAO Challenge competition*](https://www.naochallenge.it). The main goal of our site is to provide an informative and engaging platform regarding our project, highlighting its innovation and our commitment to accessibility.
 
 ***
 
